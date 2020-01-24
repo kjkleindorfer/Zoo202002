@@ -44,6 +44,9 @@ public class AnimalNoise {
     Unicorn alice = new Unicorn("Alice", "Rainbow Sparkles", true);
 		System.out.println(alice.speak());
     
+    Cow bertha = new Cow("Big Bertha", "Brown", 14);
+		System.out.println(bertha.speak());
+    
 	}
 
 }
