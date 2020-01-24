@@ -40,6 +40,10 @@ public class AnimalNoise {
 		
 		Elephant Dumbo = new Elephant ("Dumbo", "Gray", 100);
 		System.out.println(Dumbo.speak());
+    
+    Unicorn alice = new Unicorn("Alice", "Rainbow Sparkles", true);
+		System.out.println(alice.speak());
+    
 	}
 
 }
