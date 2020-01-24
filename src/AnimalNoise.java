@@ -47,6 +47,9 @@ public class AnimalNoise {
     Cow bertha = new Cow("Big Bertha", "Brown", 14);
 		System.out.println(bertha.speak());
     
+    Cricket jiminey = new Cricket("Jiminey The Cricket", "Brown", 3);
+		System.out.println(jiminey.speak());
+    
 	}
 
 }
