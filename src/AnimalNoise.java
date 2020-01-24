@@ -38,10 +38,18 @@ public class AnimalNoise {
 		Frog kermit = new Frog("Kermit", "Green", 64);
 		System.out.println(kermit.speak());
 		
-		Cricket jiminey = new Cricket("Jiminey The Cricket", "Brown", 3);
+		Elephant Dumbo = new Elephant ("Dumbo", "Gray", 100);
+		System.out.println(Dumbo.speak());
+    
+    Unicorn alice = new Unicorn("Alice", "Rainbow Sparkles", true);
+		System.out.println(alice.speak());
+    
+    Cow bertha = new Cow("Big Bertha", "Brown", 14);
+		System.out.println(bertha.speak());
+    
+    Cricket jiminey = new Cricket("Jiminey The Cricket", "Brown", 3);
 		System.out.println(jiminey.speak());
-		
-
+    
 	}
 
 }
