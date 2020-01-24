@@ -56,6 +56,8 @@ public class AnimalNoise {
     Rooster leghorn = new Rooster("Foghorn Leghorn", "White", 4);
 		System.out.println(leghorn.speak());
     
+		Monkey george = new Monkey("george", "brown", 10);
+		System.out.println(george.speak());
 	}
 
 }
