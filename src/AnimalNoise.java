@@ -37,6 +37,9 @@ public class AnimalNoise {
 		
 		Frog kermit = new Frog("Kermit", "Green", 64);
 		System.out.println(kermit.speak());
+		
+		Cow bertha = new Cow("Big Bertha", "Brown", 12);
+		System.out.println(bertha.speak());
 
 	}
 
