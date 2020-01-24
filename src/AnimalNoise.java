@@ -32,12 +32,14 @@ public class AnimalNoise {
 		Mouse jerry = new Mouse("Jerry", "Brown", 2);
 		System.out.println(jerry.speak());
     
-    Parrot polly = new Parrot(false, false, new String[]{"polly wanna cracker"});
+		Parrot polly = new Parrot(false, false, new String[]{"polly wanna cracker"});
 		System.out.println(polly.speak());
 		
 		Frog kermit = new Frog("Kermit", "Green", 64);
 		System.out.println(kermit.speak());
 
+		Unicorn alice = new Unicorn("Alice", "Rainbow Sparkles", true);
+		System.out.println(alice.speak());
 	}
 
 }
