@@ -53,6 +53,9 @@ public class AnimalNoise {
     Cricket jiminey = new Cricket("Jiminey The Cricket", "Brown", 3);
 		System.out.println(jiminey.speak());
     
+    Rooster leghorn = new Rooster("Foghorn Leghorn", "White", 4);
+		System.out.println(leghorn.speak());
+    
 	}
 
 }
