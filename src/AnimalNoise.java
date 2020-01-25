@@ -30,7 +30,8 @@ public class AnimalNoise {
 		Sheep arthur = new Sheep("Arthur", "white", 9);
 		System.out.println(arthur.speak());
 				
-
+		Eagle sam = new Eagle("North America", "Bald", true);
+		System.out.println(sam.speak());
 	}
 
 }
