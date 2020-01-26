@@ -58,6 +58,9 @@ public class AnimalNoise {
     
 		Monkey george = new Monkey("george", "brown", 10);
 		System.out.println(george.speak());
+		
+		Spider diego = new Spider("diego", "red and black", 21);
+		System.out.println(diego.speak());
 	}
 
 }
