@@ -25,6 +25,9 @@ public class AnimalNoise {
 		
 		Sheep arthur = new Sheep("Arthur", "white", 9);
 		System.out.println(arthur.speak());
+				
+		Eagle sam = new Eagle("North America", "Bald", true);
+		System.out.println(sam.speak());
 		
 		Horse seabiscuit = new Horse("Seabiscuit", 13, "Thoroughbred");
 		System.out.println(seabiscuit.speak());
@@ -44,16 +47,16 @@ public class AnimalNoise {
 		Elephant Dumbo = new Elephant ("Dumbo", "Gray", 100);
 		System.out.println(Dumbo.speak());
     
-    		Unicorn alice = new Unicorn("Alice", "Rainbow Sparkles", true);
+    Unicorn alice = new Unicorn("Alice", "Rainbow Sparkles", true);
 		System.out.println(alice.speak());
     
-   		Cow bertha = new Cow("Big Bertha", "Brown", 14);
+   	Cow bertha = new Cow("Big Bertha", "Brown", 14);
 		System.out.println(bertha.speak());
     
-    		Cricket jiminey = new Cricket("Jiminey The Cricket", "Brown", 3);
+    Cricket jiminey = new Cricket("Jiminey The Cricket", "Brown", 3);
 		System.out.println(jiminey.speak());
     
-    		Rooster leghorn = new Rooster("Foghorn Leghorn", "White", 4);
+    Rooster leghorn = new Rooster("Foghorn Leghorn", "White", 4);
 		System.out.println(leghorn.speak());
     
 		Monkey george = new Monkey("george", "brown", 10);
