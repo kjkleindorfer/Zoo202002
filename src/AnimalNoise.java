@@ -1,12 +1,8 @@
-
-//change in browser 
 import model.*;
 
 public class AnimalNoise {
 	//add your animal class to the model package
 	//only push this file and the animal class you created
-	
-	// Test
 
 	public static void main(String[] args) {
 		Cat fluffy = new Cat();
@@ -32,6 +28,39 @@ public class AnimalNoise {
 				
 		Eagle sam = new Eagle("North America", "Bald", true);
 		System.out.println(sam.speak());
+		
+		Horse seabiscuit = new Horse("Seabiscuit", 13, "Thoroughbred");
+		System.out.println(seabiscuit.speak());
+		
+		Mouse jerry = new Mouse("Jerry", "Brown", 2);
+		System.out.println(jerry.speak());
+    
+		Parrot polly = new Parrot(false, false, new String[]{"polly wanna cracker"});
+		System.out.println(polly.speak());
+		
+		Frog kermit = new Frog("Kermit", "Green", 64);
+		System.out.println(kermit.speak());
+		
+		Tiger tony = new Tiger("Tony", "Orange", 36);
+		System.out.println(tony.speak());
+
+		Elephant Dumbo = new Elephant ("Dumbo", "Gray", 100);
+		System.out.println(Dumbo.speak());
+    
+    Unicorn alice = new Unicorn("Alice", "Rainbow Sparkles", true);
+		System.out.println(alice.speak());
+    
+   	Cow bertha = new Cow("Big Bertha", "Brown", 14);
+		System.out.println(bertha.speak());
+    
+    Cricket jiminey = new Cricket("Jiminey The Cricket", "Brown", 3);
+		System.out.println(jiminey.speak());
+    
+    Rooster leghorn = new Rooster("Foghorn Leghorn", "White", 4);
+		System.out.println(leghorn.speak());
+    
+		Monkey george = new Monkey("george", "brown", 10);
+		System.out.println(george.speak());
 	}
 
 }
